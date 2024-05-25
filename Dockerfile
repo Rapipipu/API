@@ -10,6 +10,6 @@ COPY . .
 
 EXPOSE 3000
 
-ENV MODEL_URL=https://storage.googleapis.com/mlgc-submission-gcc-rafi/submission-model/model.json
+ENV MODEL_URL=https://storage.googleapis.com/dermaone-model/model.json
 
 CMD ["npm", "start"]
